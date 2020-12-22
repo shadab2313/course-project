@@ -9,10 +9,13 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes:Recipe[] = [
     new Recipe("Test Recipe", "This is test recipe", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7QCcOwqOwMPbBpgcUhc6KJ8Zjv0YAjJNL7w&usqp=CAU"),
+    new Recipe("Test Recipe", "This is test recipe", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7QCcOwqOwMPbBpgcUhc6KJ8Zjv0YAjJNL7w&usqp=CAU"),
     new Recipe("Test Recipe", "This is test recipe", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7QCcOwqOwMPbBpgcUhc6KJ8Zjv0YAjJNL7w&usqp=CAU")
   ];
 
-  constructor() { }
+  constructor() { 
+
+  }
 
   ngOnInit(): void {
   }
